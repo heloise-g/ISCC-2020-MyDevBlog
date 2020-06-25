@@ -1,0 +1,42 @@
+#titre{
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(145, 107, 107);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#navigation{
+    position: relative;
+    text-align: center;
+    background-color: lightgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
+}
+#cercle {
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    background:rgba(155, 80, 80, 0.986);
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+#description{
+    position: relative;
+    bottom: 300px;
+    left: 120px;
+}
+#articles{
+    position: relative;
+    background-color: papayawhip;
+    left: 300px;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 25%;
+    bottom: 350px;
+   
+}
