@@ -33,10 +33,15 @@
     background-color: papayawhip;
     left: 300px;
     margin-left: 20%;
-    margin-right: 5%;
+    margin-right: 15%;
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 25%;
     bottom: 350px;
-   
+}
+#mail{
+    position: relative;
+    bottom: 10%;
+    left: 100px;
+    background-color: beige;
 }
