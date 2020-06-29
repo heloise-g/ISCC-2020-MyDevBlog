@@ -30,7 +30,7 @@
 }
 #articles{
     position: relative;
-    background-color: papayawhip;
+    background-color: rgb(151, 102, 23);
     left: 300px;
     margin-left: 20%;
     margin-right: 15%;
@@ -41,7 +41,7 @@
 }
 #mail{
     position: relative;
-    bottom: 10%;
+    bottom: 600px;
     left: 100px;
     background-color: beige;
 }
