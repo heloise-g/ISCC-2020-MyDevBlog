@@ -1,5 +1,5 @@
 body{
-    font-size: 18px;
+    font-size: 14px;
     font-family: Open-Sans;
     background-color: #f2f2f2;
 }
@@ -97,14 +97,16 @@ footer{
     background-color: #2e2f30;
     position: absolute;
     bottom: 0px;
-    width: 100%;
-    padding-top: 50px;
-    height: 50px;
+    height: 100px;
+    width: 40cm;
+    text-align: center;
 }
 .footer_liens{
-    padding-left: 50px;
+    padding-right: 50px;
     margin: 0px;
+    margin-right: 0px;
     color: white;
-    text-align: left;
-    vertical-align: center;
+    background-color: #2e2f30;
+    vertical-align: middle;
+    font-size: 14px;
 }
