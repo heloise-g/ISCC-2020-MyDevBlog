@@ -1,17 +1,15 @@
 body{
-    font-size: 14px;
+    font-size: 18px;
     font-family: Open-Sans;
     background-color: #f2f2f2;
 }
 #description{
     max-width: 810px;
     margin-left: auto;
-    margin-right:auto ;
+    margin-right: auto;
     text-align: center;
     padding: 10px;
-    width: 750px;
-    background-image: url(piscine_fond.jpg);
-    height: 150px;
+    font-size: 20px;
 }
 #titre{
     font-size: 40px;
@@ -38,10 +36,6 @@ fieldset:hover a {
     text-decoration: none;
     color: #b13d6d;
 }
-footer{
-    text-align: left;
-}
-
 .Titre-secondaires{
     text-shadow: 2px 2px 4px black;
     background-color: #e6e6e6;
@@ -99,3 +93,18 @@ footer{
 button:active{
     box-shadow: black 10px;
 } 
+footer{
+    background-color: #2e2f30;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+}
+.footer_liens{
+    padding-left: 50px;
+    margin: 0px;
+    color: white;
+    text-align: left;
+    vertical-align: center;
+}
