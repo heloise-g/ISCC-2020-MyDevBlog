@@ -10,23 +10,26 @@ body{
 }
 #titre{
     font-size: 40px;
-    vertical-align: middle;
-    text-align: center;
-    padding-top: 17px;
+    vertical-align: left;
+    text-align: left;
+    padding-left: 0%;
+    padding-top: 10px;
     color: rgb(145, 107, 107);
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
 .navigation{
     background-color: #2e2f30;
-    float: right;
-    text-align: right;
+    height: 100px;
+    float: left;
+    padding-left: 25px;
+    text-align: left;
 }
 .liens{
-    padding-right: 50px;
+    padding-left: 50px;
     margin: 0px;
     color: white;
-    text-align: right;
+    text-align: left;
     vertical-align: middle;
 }
 fieldset:hover a {
