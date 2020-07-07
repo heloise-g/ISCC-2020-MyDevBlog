@@ -6,9 +6,6 @@
         <link type="text/css" rel="stylesheet" href="accueil2.css">
     </head>
     <body>
-        <div class="Titre-secondaires">
-                <h2>CONTACT</h2>
-         </div>
         <div id="formulaire">
             <form action="contact-form.php" method="post" enctype= "multipart/form-data">
                 <div>

@@ -6,19 +6,18 @@
         <link type="text/css" rel="stylesheet" href="accueil2.css">
     </head>
     <body>
-        <div class="Titre-secondaires">
-                <h2>ACCUEIL</h2>
+        <div id="description">
+            <p>description du projet en quelques lignes toto</p>
         </div>
-        <div class="description">
-            <p>description du projet en quelques lignes</p>
+        <div id="Cinq_articles">
             <p>Mettre les 5 derniers articles</p>
-            <ul>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-            </ul>
+                <ul>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                </ul>
         </div>
         <img src="image-1.png">
         <img src="image-2.png">

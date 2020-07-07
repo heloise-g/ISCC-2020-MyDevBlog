@@ -6,9 +6,6 @@
         <link type="text/css" rel="stylesheet" href="accueil2.css">
     </head>
     <body>
-        <div class="Titre-secondaires">
-                <h2>ARTICLES</h2>
-         </div>
         <div class="description">
             <p>Lister tous les articles</p>
             <ul>

@@ -4,22 +4,20 @@ body{
     background-color: #f2f2f2;
 }
 #description{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-#titre{
-    font-size: 40px;
-    vertical-align: left;
+    margin-left: 50px;
     text-align: left;
-    padding-left: 0%;
-    padding-top: 10px;
-    color: rgb(145, 107, 107);
+}
+h1{
+    font-size: 14px;
+    text-align: left;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    color: rgba(145, 107, 107);
+    outline-color: rgba(145, 107, 107);
 }
 .navigation{
     background-color: #2e2f30;
+    background-size: 100px;
     float: left;
     padding-left: 25px;
     text-align: left;
@@ -35,15 +33,7 @@ fieldset:hover a {
     text-decoration: none;
     color: #b13d6d;
 }
-.Titre-secondaires{
-    text-shadow: 2px 2px 4px black;
-    background-color: #e6e6e6;
-    text-align: center;
-    font-size: large;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: 100px;
-}
+
 #formulaire{
     width: 300px;
     padding: 8px;
@@ -108,4 +98,7 @@ footer{
     background-color: #2e2f30;
     vertical-align: middle;
     font-size: 14px;
+}
+#Cinq_articles{
+    text-align: left;
 }
