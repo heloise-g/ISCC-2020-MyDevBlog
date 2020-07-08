@@ -9,7 +9,7 @@
         <div id="description">
             <p>description du projet en quelques lignes toto</p>
         </div>
-        <div id="Cinq_articles">
+        <div id="cinqarticles">
             <p>Mettre les 5 derniers articles</p>
                 <ul>
                     <li>-</li>

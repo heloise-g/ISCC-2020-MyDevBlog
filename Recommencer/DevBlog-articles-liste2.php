@@ -6,7 +6,7 @@
         <link type="text/css" rel="stylesheet" href="accueil2.css">
     </head>
     <body>
-        <div class="description">
+        <div id="artcileslistes">
             <p>Lister tous les articles</p>
             <ul>
                 <li>-</li>

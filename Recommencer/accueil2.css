@@ -6,17 +6,20 @@ body{
 #description{
     margin-left: 50px;
     text-align: left;
+    margin-top: 100px;
 }
 h1{
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(145, 107, 107);
-    outline-color: rgba(145, 107, 107);
+    border-color: rgba(145, 107, 107);
+    border-style: double;
 }
 .navigation{
     background-color: #2e2f30;
+    width: 500px;
     background-size: 100px;
     float: left;
     padding-left: 25px;
@@ -99,6 +102,6 @@ footer{
     vertical-align: middle;
     font-size: 14px;
 }
-#Cinq_articles{
+#cinqarticles{
     text-align: left;
 }
