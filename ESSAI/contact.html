@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Héloïse GASPAIS-contact</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="accueil.css">
+    </head>
+    <body>
+        <header>
+            <I><h1>MyDevBlog</h1></I>
+            <fieldset class="navigation">
+                <a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/accueil.html"><B>Accueil</B></a>
+                <a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/articles.html"><B>Articles</B></a>
+                <a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/contact.html"><B>Contact</B></a>
+            </fieldset>
+        </header>
+        <div id="formulaire">
+            <form action="contact-form.php" method="post" enctype= "multipart/form-data">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="user_name" placeholder="Nom et Prénom">
+                </div>
+                <div>
+                    <label for="mail"></label>
+                    <input type="email" id="mail" name="user_mail" placeholder="E-mail">
+                </div>
+                <div>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="button">Envoyer</button>
+                 </div>
+            </form>
+        </div>
+        <footer>
+            <fieldset class="footer_liens">
+                <p><B>Mail : hgaspais@gmail.com</B></p><br/>
+                <a href="http://localhost/ISCC/ISCC-2020-J03/mon-cv.html" class="footer_liens">CV</a> 
+                <a href="https://github.com/heloise-g" class="footer_liens">Profil GitHub</a>
+                <a href="Mettre lien vers l'espace administratif de mon site" class="footer_liens">Espace adm</a>
+            </fieldset>
+        </footer>
+    </body>
+</html>

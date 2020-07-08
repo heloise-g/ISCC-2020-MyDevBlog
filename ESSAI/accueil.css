@@ -1,0 +1,133 @@
+body{
+    font-size: 16px;
+    font-family: Open-Sans;
+    background-color: #f2f2f2;
+}
+#description{
+    margin-left: 50px;
+    text-align: left;
+    margin-top: 100px;
+}
+h1{
+    font-size: 40px;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(145, 107, 107);
+    border-color: rgba(145, 107, 107);
+    border-style: double;
+}
+.navigation{
+    background-color: #2e2f30;
+    width: 97.5%;
+    background-size: 100px;
+    float: left;
+    padding-left: 25px;
+    text-align: left;
+}
+.liens{
+    padding-left: 50px;
+    margin: 0px;
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+}
+fieldset:hover a {
+    text-decoration: none;
+    color: #b13d6d;
+}
+
+#formulaire{
+    width: 300px;
+    padding: 8px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#name{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#mail{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+    margin-top: 25px;
+}
+#msg{
+    width: 250px;
+    border: solid #e6e6e6 2px;
+    margin-top: 25px;
+}
+#name:hover{
+    border-color: rgb(146, 19, 19);
+}
+#mail:hover{
+    border-color: rgb(146, 19, 19);
+}
+#msg:hover{
+    border-color: rgb(146, 19, 19);
+}
+#button{
+    background-color: rgb(146, 19, 19);
+    border-color: rgb(146, 19, 19);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+#button:hover{
+    background-color: #2dee7e;
+    border-color: #2dee7e;
+}
+button:active{
+    box-shadow: black 10px;
+} 
+footer{
+    border-color: rgba(145, 107, 107);
+    border-style: double;
+}
+.footer_liens{
+    padding-right: 50px;
+    margin: 0px;
+    margin-right: 0px;
+    color: white;
+    background-color: #2e2f30;
+    width: 40cm;
+    vertical-align: middle;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+}
+.adm{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+#article1{
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+#article2{
+    position: relative;
+    left: 400px;
+    top: 183px;
+}
+#article3{
+    position: relative;
+    left: 600px;
+    top: 160px;
+}
+#article4{
+    position: relative;
+    left: 800px;
+    top: 140px;
+}
+#article5{
+    position: relative;
+    left: 1000px;
+    top: 120px;
+}
