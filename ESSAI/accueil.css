@@ -13,22 +13,23 @@ h1{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(145, 107, 107);
-    border-color: rgba(145, 107, 107);
-    border-style: double;
+    border: rgba(145, 107, 107) 4px double;
+    background-color: rgb(228, 222, 222);
+    padding: 2%;
 }
 .navigation{
     background-color: #2e2f30;
     width: 97.5%;
     background-size: 100px;
-    float: left;
     padding-left: 25px;
     text-align: left;
+    padding: 1%;
+    position: relative;
+    top: -27px;
 }
 .liens{
-    padding-left: 50px;
-    margin: 0px;
     color: white;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
 }
 fieldset:hover a {
@@ -85,26 +86,24 @@ button:active{
     box-shadow: black 10px;
 } 
 footer{
-    border-color: rgba(145, 107, 107);
-    border-style: double;
+   background-color: #2e2f30;
+   width: 100%;
+   height: 70px;
+   position: relative;
+   bottom: -65px;
+   font-size: 110%;
 }
-.footer_liens{
-    padding-right: 50px;
-    margin: 0px;
-    margin-right: 0px;
-    color: white;
-    background-color: #2e2f30;
-    width: 40cm;
-    vertical-align: middle;
-    font-size: 14px;
-    position: absolute;
-    bottom: 0px;
+.cv{
+    position: relative;
+    left: 10px;
+}
+.github{
+    position: relative;
+    left: 100px;
 }
 .adm{
-    position: absolute;
-    bottom: 15px;
-    margin-left: 1300px;
-    font-size: medium;
+    position: relative;
+    left: 1200px;
 }
 #article1{
     position: relative;
@@ -130,4 +129,23 @@ footer{
     position: relative;
     left: 1000px;
     top: 120px;
+}
+#article6{
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+#article7{
+    position: relative;
+    left: 600px;
+    top: 110px;
+}
+#article8{
+    position: relative;
+    left: 1000px;
+    top: 15px;
+}
+#affichetete{
+    position: relative;
+    left: 100px;
 }
