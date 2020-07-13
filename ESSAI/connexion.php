@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Blog Héloïse GASPAIS</title>
+        <title>Blog Héloïse GASPAIS-contact</title>
         <meta charset="utf-8">
         <link type="text/css" rel="stylesheet" href="accueil.css">
     </head>
     <body>
         <div id="compte">
-        <h2>Rejoignez-nous !</h2>
+        <h2>Connectez-vous à votre compte !</h2>
         </div>
         <div id="formulaire">
             <form action="contact-form.php" method="post" enctype= "multipart/form-data">
                 <div>
-                    <label for="name"></label>
-                    <input type="text" id="name" name="user_name" placeholder="Nom">
-                </div>
-                <br/>
-                <div>
-                    <label for="prenom"></label>
-                    <input type="text" id="prenom" name="user_prenom" placeholder="Prénom">
-                </div>
-                <br/>
-                <div>
                     <label for="login"></label>
-                    <input type="text" id="login" name="user_login" placeholder="Nom d'utilisateur">
+                    <input type="text" id="login" name="user_login" placeholder="Login">
                 </div>
                 <br/>
                 <div>
@@ -32,9 +22,12 @@
                 </div>
                 <br/>
                 <div>
-                    <button type="submit" id="button">S'inscrire</button>
-                </div>
+                    <button type="submit" id="button">Se connecter</button>
+                 </div>
             </form>
+        </div>
+        <div id="creation-compte">
+        <a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/front.php?page=creation-compte">Créer un compte</a>
         </div>
     </body>
 </html>

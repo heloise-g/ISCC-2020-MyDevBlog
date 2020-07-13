@@ -51,10 +51,10 @@
                 include("article8.html");
             }
             elseif ($_GET["page"]== 4){
-                include("espace_adm.html");
+                include("connexion.php");
             }
             elseif ($_GET["page"]== "creation-compte"){
-                include("creation-compte.html");
+                include("creation-compte.php");
             }
             else {
                 echo "ERREUR 404!" . "<br/>";
