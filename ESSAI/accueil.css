@@ -5,7 +5,7 @@ body{
 #description{
     margin-left: 50px;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 h1{
     font-size: 40px;
@@ -89,8 +89,8 @@ footer{
    background-color: #2e2f30;
    width: 100%;
    height: 70px;
-   position: relative;
-   bottom: -65px;
+   position: absolute;
+   bottom: 0px;
    font-size: 110%;
 }
 .cv{
@@ -138,12 +138,12 @@ footer{
 #article7{
     position: relative;
     left: 600px;
-    top: 110px;
+    top: 60px;
 }
 #article8{
     position: relative;
     left: 1000px;
-    top: 15px;
+    bottom: 80px;
 }
 #affichetete{
     position: relative;
