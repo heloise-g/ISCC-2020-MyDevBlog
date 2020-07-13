@@ -157,3 +157,34 @@ footer{
     left: 100px;
 
 }
+#prenom{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#prenom:hover{
+    border-color: rgb(146, 19, 19);
+}
+#login{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#login:hover{
+    border-color: rgb(146, 19, 19);
+}
+#password{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#password:hover{
+    border-color: rgb(146, 19, 19);
+}
+#creation-compte{
+    text-align: center;
+    color: thistle;
+}
+#compte{
+    text-align: center;
+}

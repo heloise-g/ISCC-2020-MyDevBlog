@@ -50,6 +50,12 @@
             elseif ($_GET["page"]== "article8"){
                 include("article8.html");
             }
+            elseif ($_GET["page"]== 4){
+                include("espace_adm.html");
+            }
+            elseif ($_GET["page"]== "creation-compte"){
+                include("creation-compte.html");
+            }
             else {
                 echo "ERREUR 404!" . "<br/>";
                 echo "VOUS VOUS ETES PERDUS EN CHEMIN...";
