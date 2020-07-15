@@ -14,11 +14,6 @@ session_start();
         die('Erreur : ' . $e->getMessage());
     }
     if(isset($_POST['inscription'])){
-        $user_name = htmlspecialchars($_POST['user_name']);
-        $user_prenom = htmlspecialchars($_POST['user_prenom']);
-        $user_login = htmlspecialchars($_POST['user_login']);
-        $user_password = sha1($_POST['user_password']);
-        $user_password2 = sha1($_POST['user_password2']);
         
         if(!empty($_POST['user_name']) && !empty($_POST['user_prenom']) && !empty($_POST['user_login']) && !empty($_POST['user_password']) && !empty($_POST['user_password2'])){
             if($_POST['user_password'] == $_POST['user_password2']){

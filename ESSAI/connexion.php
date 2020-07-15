@@ -11,17 +11,18 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 if(isset($_POST["connexion"])){
     $user_login = htmlspecialchars($_POST['user_login']);
-    $user_password = sha1($_POST['user_password']);
+    $user_password= $_POST['user_password'];
 
     if(!empty('user_login') && !empty('user_password')){
-        $requser = $pdo->prepare('SELECT * FROM utilisateurs WHERE user_login = ? AND user_password = ?');
-        $requser->execute(array($user_login, $user_password));
+        $requser = $pdo->prepare('SELECT * FROM utilisateurs WHERE user_login = :user_login AND user_password = :user_password');
+        $requser->execute(array(':user_login' => $user_login,':user_password' =>  $user_password));
+        echo $requser->fetch();
         $userexist = $requser->rowCount();
         if($userexist == 1){
             $userinfo = $requser->fetch();
-            $_SESSION['id'] = $userinfo['id'];
-            $_SESSION['login'] = $userinfo['login'];
-            header('Location: vipaccueil.php');
+            $_SESSION ['id'] = $userinfo['id'];
+            $_SESSION ['login'] = $userinfo['login'];
+            header("location: vipaccueil.php");
         } else{
             echo "Mauvais login ou password";
         }

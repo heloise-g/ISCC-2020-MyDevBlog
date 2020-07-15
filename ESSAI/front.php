@@ -59,6 +59,9 @@
             elseif ($_GET["page"]== "vip"){
                 include("vipaccueil.php");
             }
+            elseif ($_GET["page"]== "deconnexion"){
+                include("deconnexion.php");
+            }
             else {
                 echo "ERREUR 404!" . "<br/>";
                 echo "VOUS VOUS ETES PERDUS EN CHEMIN...";
