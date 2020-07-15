@@ -56,6 +56,9 @@
             elseif ($_GET["page"]== "creation-compte"){
                 include("creation-compte.php");
             }
+            elseif ($_GET["page"]== "vip"){
+                include("vipaccueil.php");
+            }
             else {
                 echo "ERREUR 404!" . "<br/>";
                 echo "VOUS VOUS ETES PERDUS EN CHEMIN...";
