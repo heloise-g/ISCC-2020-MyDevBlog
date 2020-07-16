@@ -19,9 +19,8 @@
             $request = $pdo->query($sql);
             while ($row = $request->fetch()){
         ?>
-        <div class="article1">
+
             <li><a href="affichage.php?id=<?php echo $row['id']?>"><?php echo $row["titre"]?></a><br/><?php echo $row["extrait"]?></li>
-        <div>
         <?php
         }
         ?>

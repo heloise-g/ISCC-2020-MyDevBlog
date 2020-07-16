@@ -8,7 +8,6 @@
     <body>
         <p>Les articles !</p>
 
-        <div class="article1">
         <?php
             $pdo = new PDO ("mysql:host=localhost; dbname=mydevblog", "root", "");
             $sql = "SELECT * FROM articles ORDER BY date DESC";
@@ -19,7 +18,6 @@
                 <?php
             }
         ?>
-        </div>
        
     </body>
     
