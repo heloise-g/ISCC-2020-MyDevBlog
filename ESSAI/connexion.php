@@ -22,7 +22,7 @@ if(isset($_POST["connexion"])){
             $userinfo = $requser->fetch();
             $_SESSION ['id'] = $userinfo['id'];
             $_SESSION ['login'] = $userinfo['login'];
-            header("location: vipaccueil.php");
+            header("location: http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=vipaccueil");
         } else{
             echo "Mauvais login ou password";
         }
@@ -48,5 +48,5 @@ if(isset($_POST["connexion"])){
     </form>
 </div>
 <div id="creation-compte">
-<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/front.php?page=creation-compte">Créer un compte</a>
+<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=creation-compte">Créer un compte</a>
 </div>

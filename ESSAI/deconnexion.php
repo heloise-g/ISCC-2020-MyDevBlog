@@ -8,5 +8,5 @@
 session_start();
 $_SESSION=array();
 session_destroy();
-header("Location: connexion.php");
+header("Location: http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/front.php?page=connexion.php");
 ?>

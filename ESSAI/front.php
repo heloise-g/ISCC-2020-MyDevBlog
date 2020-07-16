@@ -21,10 +21,10 @@
                 include("accueil.html");
             }
             elseif ($_GET["page"]== 2){
-                include("articles.html");
+                include("articles.php");
             }
             elseif ($_GET["page"]== 3){
-                include("contact.html");
+                include("contact.php");
             }
             elseif ($_GET["page"]== "article1"){
                 include("article1.html");
@@ -52,15 +52,6 @@
             }
             elseif ($_GET["page"]== 4){
                 include("connexion.php");
-            }
-            elseif ($_GET["page"]== "creation-compte"){
-                include("creation-compte.php");
-            }
-            elseif ($_GET["page"]== "vip"){
-                include("vipaccueil.php");
-            }
-            elseif ($_GET["page"]== "deconnexion"){
-                include("deconnexion.php");
             }
             else {
                 echo "ERREUR 404!" . "<br/>";

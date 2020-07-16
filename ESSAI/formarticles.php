@@ -5,27 +5,23 @@
 </head>
 
 <?php
-session_start();
-$pdo = new PDO ("mysql:host=localhost; dbname=mydevblog", "root", "");
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-$titre= $_POST['titre'];
-$date= $_POST['date'];
-$auteur= $_POST['auteur'];
-$contenu= $_POST['contenu'];
-$extrait= $_POST['extrait'];
+    $pdo = new PDO ("mysql:host=localhost; dbname=mydevblog", "root", "");
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-if(isset($_POST["publication"])){
+    if(isset($_POST['publication'])){
 
-    if(!empty('titre') && !empty('image')&& !empty('date')&& !empty('auteur')&& !empty('contenu')&& !empty('extrait')){
-        
-        $newarticle = $pdo->prepare('INSERT INTO articles(titre, date, auteur, contenu, extrait)VALUES(?,?,?,?,?,?)');
-        $newarticle->execute(array($titre, $date, $auteur, $contenu, $extrait));
-        echo $newarticle->fetch();
-        echo "Votre article a bien été publié";
-    } else{
-        echo "Tous les champs doivent être remplis !";
+        if(!empty($_POST['titre']) && !empty($_FILES['image']["tmp_name"]) && !empty($_POST['date']) && !empty($_POST['auteur']) && !empty($_POST['contenu']) && !empty($_POST['extrait'])){
+            $sth = $pdo->prepare('INSERT INTO articles(titre, image, date, auteur, contenu, extrait)VALUES(?,?,NOW(),?,?,?)');
+            $sth->execute (array($_POST['titre'], $_FILES['image']["tmp_name"], $_POST['auteur'], $_POST['contenu'], $_POST['extrait']));
+            if($sth->rowCount()== 1){
+                echo "Votre article a été publié !";
+            }else{
+                echo "Une erreur est survenue";
+            }
+        }else{
+            echo "Il faut remplir tous les champs !";
+        }
     }
-}
 ?>
     <div id="compte">
     <h2>Créez votre article ! A vous de jouer !</h2>
