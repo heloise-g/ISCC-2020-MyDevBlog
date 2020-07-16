@@ -26,6 +26,9 @@
             elseif ($_GET["page"]== 3){
                 include("contact.php");
             }
+            elseif ($_GET["page"]== 4){
+                include("connexion.php");
+            }
             elseif ($_GET["page"]== "affichage"){
                 include("affichage.php");
             }
