@@ -21,6 +21,7 @@ session_start();
                 $sth->execute (array($_POST['user_name'], $_POST['user_prenom'], $_POST['user_login'], $_POST['user_password']));
                 if($sth->rowCount()== 1){
                     echo "Vous êtes maintenant connectés !!";
+                    header("location: http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=vipaccueil");
                 }
             }else{
                 echo "les mots de passe ne correpsondent pas...";

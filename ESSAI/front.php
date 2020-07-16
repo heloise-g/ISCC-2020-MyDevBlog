@@ -18,7 +18,7 @@
         <?php
         if(isset($_GET["page"])){
             if ($_GET["page"]== 1){
-                include("accueil.html");
+                include("accueil.php");
             }
             elseif ($_GET["page"]== 2){
                 include("articles.php");
@@ -26,32 +26,8 @@
             elseif ($_GET["page"]== 3){
                 include("contact.php");
             }
-            elseif ($_GET["page"]== "article1"){
-                include("article1.html");
-            }
-            elseif ($_GET["page"]== "article2"){
-                include("article2.html");
-            }
-            elseif ($_GET["page"]== "article3"){
-                include("article3.html");
-            }
-            elseif ($_GET["page"]== "article4"){
-                include("article4.html");
-            }
-            elseif ($_GET["page"]== "article5"){
-                include("article5.html");
-            }
-            elseif ($_GET["page"]== "article6"){
-                include("article6.html");
-            }
-            elseif ($_GET["page"]== "article7"){
-                include("article7.html");
-            }
-            elseif ($_GET["page"]== "article8"){
-                include("article8.html");
-            }
-            elseif ($_GET["page"]== 4){
-                include("connexion.php");
+            elseif ($_GET["page"]== "affichage"){
+                include("affichage.php");
             }
             else {
                 echo "ERREUR 404!" . "<br/>";

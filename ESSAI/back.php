@@ -29,6 +29,9 @@
             elseif ($_GET["page"]== "formarticles"){
                 include("formarticles.php");
             }
+            elseif ($_GET["page"]== "utilisateurs"){
+                include("utilisateurs.php");
+            }
             else {
                 echo "ERREUR 404!" . "<br/>";
                 echo "VOUS VOUS ETES PERDUS EN CHEMIN...";
