@@ -7,7 +7,7 @@ body{
     text-align: left;
     margin-top: 10px;
 }
-h1{
+header{
     font-size: 40px;
     text-align: left;
     font-style: italic;
@@ -112,46 +112,7 @@ footer{
     left: 1200px;
     color: white;
 }
-.article1{
-    position: relative;
-    left: 200px;
-    top: 200px;
-}
-#article2{
-    position: relative;
-    left: 400px;
-    top: 183px;
-}
-#article3{
-    position: relative;
-    left: 600px;
-    top: 160px;
-}
-#article4{
-    position: relative;
-    left: 800px;
-    top: 140px;
-}
-#article5{
-    position: relative;
-    left: 1000px;
-    top: 120px;
-}
-#article6{
-    position: relative;
-    left: 200px;
-    top: 200px;
-}
-#article7{
-    position: relative;
-    left: 600px;
-    top: 60px;
-}
-#article8{
-    position: relative;
-    left: 1000px;
-    bottom: 80px;
-}
+
 #affichetete{
     position: relative;
     left: 50px;
