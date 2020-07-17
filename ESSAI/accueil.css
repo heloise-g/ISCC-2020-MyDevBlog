@@ -7,8 +7,8 @@ body{
     text-align: left;
     margin-top: 10px;
 }
-header{
-    font-size: 30px;
+h1{
+    font-size: 40px;
     text-align: left;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
