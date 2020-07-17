@@ -28,7 +28,7 @@
         }
         ?>
         <p></p>
-        <div id="silhouette_femme">
+        <div class="silhouette_femme">
         <img
             src="silhouette_femme2.jpg";
             alt="";

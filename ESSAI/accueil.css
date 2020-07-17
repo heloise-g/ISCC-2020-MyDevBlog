@@ -233,7 +233,7 @@ button:active{
 .liens_accueil:hover{
     color: rgb(240, 48, 89);
 }
-#silhouette_femme{
+.silhouette_femme{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
