@@ -4,6 +4,7 @@
     <link type="text/css" rel="stylesheet" href="accueil.css">
 </head>  
 
+
 <?php
 if(isset($_GET['id']) && !empty($_GET['id'])){
     $sql = "SELECT * FROM articles WHERE id=". $_GET['id'];
