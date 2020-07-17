@@ -7,12 +7,13 @@
 
 
 
-<div id="creation-compte">
-<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=deconnexion">Déconnexion</a>
+
+<div>
+<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=formarticles">Créez votre article</a><p></p>
 </div>
 <div>
-<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=formarticles">Créez votre article</a>
+<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=utilisateurs">Liste des utilisateurs</a><p></p>
 </div>
 <div>
-<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=utilisateurs">Liste des utilisateurs</a>
+<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=deconnexion">Déconnexion</a><p></p>
 </div>

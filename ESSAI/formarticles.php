@@ -28,14 +28,15 @@
     </div>
 
     <body>
+    <div id="formulaire">
         <form action="" method="post" enctype= "multipart/form-data">
-            <p>Titre de l'article: <input type="text" id="titre" name="titre" placeholder="Titre"></p>
+            <p>Titre de l'article: <input type="text" id="art_titre" name="titre" placeholder="Titre"></p>
             <br/>
             <br/>
                 <input type="file" id="image" name="image" placeholder="Image">
             <br/>
             <br/>
-                <input type="date" id="date" name="date" placeholder="Date de publication">
+                <input type="date" id="art_date" name="date" placeholder="Date de publication">
             <br/>
             <br/>
                 <input type="text" id="auteur" name="auteur" placeholder="Auteur">
@@ -49,5 +50,6 @@
             <br/>
                 <button type="submit" id="button" name="publication">Publier</button>
         </form>
+    </div>
     </body>
 

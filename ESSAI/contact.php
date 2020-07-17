@@ -35,6 +35,7 @@
 
                 <textarea id="msg" name="user_message" placeholder="Message" rows="10" cols="33"></textarea>
             <br/>
+            <br/>
 
                 <button type="submit" id="button" name="contact">Envoyer</button>
         </form>

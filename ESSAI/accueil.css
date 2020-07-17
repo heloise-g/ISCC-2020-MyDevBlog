@@ -4,10 +4,17 @@ body{
 }
 #description{
     margin-left: 50px;
+    margin-right: 50px;
     text-align: left;
     margin-top: 10px;
+    border: silver 4px solid;
+    padding: 6px;
 }
-h1{
+.phrase{
+    text-align: center;
+    font-size: large;
+}
+header{
     font-size: 40px;
     text-align: left;
     font-style: italic;
@@ -18,13 +25,14 @@ h1{
 }
 .navigation{
     background-color: #2e2f30;
-    width: 97.5%;
+    width: 97.8%;
     background-size: 100px;
-    padding-left: 25px;
+    padding-left: 21px;
+    margin-left: 0px;
     text-align: left;
     padding: 1%;
     position: relative;
-    top: -27px;
+    top: -18px;
 }
 .liens{
     color: white;
@@ -34,11 +42,21 @@ h1{
 .liens2{
     color: rgb(192, 74, 109);
 }
+footer{
+    background-color: #2e2f30;
+    color: white;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    font-size: 110%;
+}
+.liensfooter{
+     color: white;
+}
 fieldset:hover a {
     text-decoration: none;
     color: #b13d6d;
 }
-
 #formulaire{
     width: 300px;
     padding: 8px;
@@ -87,15 +105,7 @@ fieldset:hover a {
 button:active{
     box-shadow: black 10px;
 } 
-footer{
-   background-color: #2e2f30;
-   color: white;
-   width: 100%;
-   height: 70px;
-   position: absolute;
-   bottom: 0px;
-   font-size: 110%;
-}
+
 .cv{
     position: relative;
     left: 10px;
@@ -108,7 +118,7 @@ footer{
 }
 .adm{
     position: relative;
-    left: 1200px;
+    left: 1100px;
     color: white;
 }
 
@@ -147,4 +157,85 @@ footer{
 }
 #compte{
     text-align: center;
+}
+
+.titreaffichage{
+    font-size: x-large;
+    position: relative;
+    left: 30%;
+    top: 15%;
+}
+.art_image{
+    position: relative;
+    left: 30px;
+}
+.date{
+    font-size: large;
+    position: relative;
+    left:90%;
+    bottom: 50%;
+}
+.auteur{
+    text-align: right;
+    font-size: large;
+}
+#art_titre{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#art_titre:hover{
+    border-color: rgba(214, 83, 83, 0.808);
+}
+#image{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#image:hover{
+    border-color: rgba(214, 83, 83, 0.808);
+}
+#art_date{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#art_date:hover{
+    border-color: rgba(214, 83, 83, 0.808);
+}
+#auteur{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#auteur:hover{
+    border-color: rgba(214, 83, 83, 0.808);
+}
+#contenu{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#contenu:hover{
+    border-color: rgba(214, 83, 83, 0.808);
+}
+#extrait{
+    width: 250px;
+    height: 30px;
+    border: solid #e6e6e6 2px;
+}
+#extrait:hover{
+    border-color: rgba(214, 83, 83, 0.808);
+}
+.liens_accueil{
+    margin-left: 10px;
+}
+.liens_accueil:hover{
+    color: rgb(240, 48, 89);
+}
+#silhouette_femme{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
 }

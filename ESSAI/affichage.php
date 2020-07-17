@@ -11,16 +11,33 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
     $pdo = new PDO ("mysql:host=localhost; dbname=mydevblog", "root", "");
     $request = $pdo->prepare($sql);
     $request = $pdo->query($sql);
-    $article = $request->fetch();
-    echo $article['titre'];
-    ?><br/><br/>
+    $article = $request->fetch();?>
+
+    <div class='titreaffichage'>
+        <?php echo $article['titre'];?>
+    </div>
+
+    <br/><br/>
+
+    <div class="art_image">
+        <img src = <?= $article['image']?> widht=500 height=400>
+    </div>
+
+    <br/><br/>
+
+    <div class='date'>
+        <?php echo $article['date'];?></div>
+    <br/><br/>
+
+    <?php echo $article['contenu'];?>
+
+    <br/><br/>
+
+    <div class="auteur">
+        <?php echo $article['auteur'];?>
+    </div>
+    
     <?php
-    echo "<img src = " .$article['image'] . ">";?><br/><br/>
-    <?php
-    echo $article['date'];
-    echo $article['auteur'];?><br/><br/>
-    <?php
-    echo $article['contenu'];
 }else{
     header('Location: articles.php');
 }

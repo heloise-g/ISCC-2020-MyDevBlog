@@ -48,5 +48,5 @@ if(isset($_POST["connexion"])){
     </form>
 </div>
 <div id="creation-compte">
-<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=creation-compte">Créer un compte</a>
+<a href="http://localhost/ISCC/ISCC-2020-MyDevBlog/essai/back.php?page=creation-compte">Créer un compte</a><p></p>
 </div>

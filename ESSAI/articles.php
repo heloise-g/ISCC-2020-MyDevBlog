@@ -6,7 +6,9 @@
         <link type="text/css" rel="stylesheet" href="accueil.css">
     </head>
     <body>
-        <p>Les articles !</p>
+        <div class="phrase">
+        <p><B>Les articles !</B></p>
+        </div>
 
         <?php
             $pdo = new PDO ("mysql:host=localhost; dbname=mydevblog", "root", "");
@@ -14,7 +16,9 @@
             $request = $pdo->query($sql);
             while ($row = $request->fetch()){
                 ?>
-                <li><a href="front.php?page=affichage&id=<?php echo $row['id']?>"><?php echo $row["titre"]?></a><br/><?php echo $row["extrait"]?></li>
+                <div class="liens_accueil">
+                <li><a href="front.php?page=affichage&id=<?php echo $row['id']?>"><?php echo $row["titre"]?></a><br/><?php echo $row["extrait"]?></li><p></p>
+                </div>
                 <?php
             }
         ?>
